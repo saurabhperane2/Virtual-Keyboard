@@ -13,7 +13,7 @@ keyboard.addEventListener("contextmenu", (e) => {
 });
 letters.forEach((letter) => {
         letter.addEventListener("click", () => {
-            letter.style.transition = "transform 0.5s ease-in-out";
+            letter.style.transition = "transform 0.5s ease";
             letter.style.transform = "scale(0.9)";
             inputText.innerText += letter.innerText;
             setTimeout(() => {
@@ -22,7 +22,7 @@ letters.forEach((letter) => {
         });
 });
 backSpace.addEventListener("click", () => {
-    backSpace.style.transition = "transform 0.5s ease-in-out";
+    backSpace.style.transition = "transform 0.5s ease";
     backSpace.style.transform = "scale(0.9)";
     inputText.innerText = inputText.innerText.slice(0, -1);
     setTimeout(() => {
@@ -30,7 +30,7 @@ backSpace.addEventListener("click", () => {
     }, 500);
 });
 spaceBar.addEventListener("click", () => {
-    spaceBar.style.transition = "transform 0.5s ease-in-out";
+    spaceBar.style.transition = "transform 0.5s ease";
     spaceBar.style.transform = "scale(0.9)";
     inputText.innerText += " ";
     setTimeout(() => {
@@ -38,7 +38,7 @@ spaceBar.addEventListener("click", () => {
     }, 500);
 });
 clearAll.addEventListener("click", () => {
-    clearAll.style.transition = "transform 0.5s ease-in-out";
+    clearAll.style.transition = "transform 0.5s ease";
     clearAll.style.transform = "scale(0.9)";
     inputText.innerText = "";
     setTimeout(() => {
@@ -46,7 +46,7 @@ clearAll.addEventListener("click", () => {
     }, 500);
 });
 tab.addEventListener("click", () => {
-    tab.style.transition = "transform 0.5s ease-in-out";
+    tab.style.transition = "transform 0.5s ease";
     tab.style.transform = "scale(0.9)";
     inputText.innerText += "    ";
     setTimeout(() => {
@@ -54,7 +54,7 @@ tab.addEventListener("click", () => {
     }, 500);
 });
 capsLock.addEventListener("click", () => {
-    capsLock.style.transition = "transform 0.5s ease-in-out";
+    capsLock.style.transition = "transform 0.5s ease";
     capsLock.style.transform = "scale(0.9)";
     if(counter % 2 == 0){
         letters.forEach((letter) => {
