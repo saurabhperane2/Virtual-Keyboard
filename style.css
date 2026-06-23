@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+.container{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 90vh;
+    padding: 2vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.inputBox{
+    box-sizing: border-box;
+    width: 95vw;
+    height: 50vh;
+    background-color: teal;
+    padding: 1vmax;
+    overflow: auto;
+}
+#inputText{
+    color: white;
+    font-size: 4vmax;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+.keyboard{
+    box-sizing: border-box;
+    width: 95vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmax;
+    font-size: 2vmax;
+    background-image: url("./background.jpg");
+    user-select: none;
+}
+.firstRow{
+    display: flex;
+    gap: 1vmax;
+}
+.secondRow{
+    display: flex;
+    gap: 1vmax;
+}
+.thirdRow{
+    display: flex;
+    gap: 1vmax;
+}
+.fourthRow{
+    display: flex;
+    gap: 1vmax;
+}
+#letter{
+    box-sizing: border-box;
+    border: 0.1vmax solid black;
+    width: 7vw;
+    height: 6vh;
+    box-shadow: 0.5vmax 0.5vmax 0.5vmax teal;
+    border-radius: 0.5vmax;
+    font-size: 2vmax;
+    text-align: justify;
+    backdrop-filter: blur(2vmax);
+    padding: 0.2vmax;
+}
+#letter:hover{
+    box-shadow: 0.5vmax 0.5vmax 0vmax teal;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+}
+#tab{
+    box-sizing: border-box;
+    border: 0.1vmax solid black;
+    width: 8vw;
+    height: 6vh;
+    box-shadow: 0.5vmax 0.5vmax 0.5vmax teal;
+    border-radius: 0.5vmax;
+    font-size: 2vmax;
+    text-align: justify;
+    backdrop-filter: blur(2vmax);
+}
+#tab:hover{
+    box-shadow: 0.5vmax 0.5vmax 0vmax teal;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+}
+#backSpace{
+    box-sizing: border-box;
+    border: 0.1vmax solid black;
+    width: 10vw;
+    height: 6vh;
+    box-shadow: 0.5vmax 0.5vmax 0.5vmax teal;
+    border-radius: 0.5vmax;
+    text-wrap: wrap;
+    font-size: 2vmax;
+    text-align: justify;
+    backdrop-filter: blur(2vmax);
+}
+#backSpace:hover{
+    box-shadow: 0.5vmax 0.5vmax 0vmax teal;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+}
+#spaceBar{
+    box-sizing: border-box;
+    border: 0.1vmax solid black;
+    width: 40vw;
+    height: 6vh;
+    box-shadow: 0.5vmax 0.5vmax 0.5vmax teal;
+    border-radius: 0.5vmax;
+    font-size: 2vmax;
+    backdrop-filter: blur(2vmax);
+}
+#spaceBar:hover{
+    box-shadow: 0.5vmax 0.5vmax 0vmax teal;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+}
+#clearAll{
+    box-sizing: border-box;
+    border: 0.1vmax solid black;
+    width: 15vw;
+    height: 6vh;
+    box-shadow: 0.5vmax 0.5vmax 0.5vmax teal;
+    border-radius: 0.5vmax;
+    font-size: 2vmax;
+    backdrop-filter: blur(2vmax);
+}
+#clearAll:hover{
+    box-shadow: 0.5vmax 0.5vmax 0vmax teal;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+}
+#capsLock{
+    box-sizing: border-box;
+    border: 0.1vmax solid black;
+    width: 15vw;
+    height: 6vh;
+    box-shadow: 0.5vmax 0.5vmax 0.5vmax teal;
+    border-radius: 0.5vmax;
+    font-size: 2vmax;
+    backdrop-filter: blur(2vmax);
+}
+#capsLock:hover{
+    box-shadow: 0.5vmax 0.5vmax 0vmax teal;
+    transition: 0.1s ease-out;
+    cursor: pointer;
+}
