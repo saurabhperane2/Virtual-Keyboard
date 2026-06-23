@@ -127,6 +127,9 @@ h1{
     transition: 0.1s ease-out;
     cursor: pointer;
 }
+#spaceBar:active{
+    transform: scale(0.9);
+}
 #clearAll{
     box-sizing: border-box;
     border: 0.1vmax solid black;
