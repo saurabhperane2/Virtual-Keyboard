@@ -79,6 +79,9 @@ h1{
     transition: 0.1s ease-out;
     cursor: pointer;
 }
+#letter:active{
+    transform: scale(0.9);
+}
 #tab{
     box-sizing: border-box;
     border: 0.1vmax solid black;
@@ -94,6 +97,9 @@ h1{
     box-shadow: 0.5vmax 0.5vmax 0vmax teal;
     transition: 0.1s ease-out;
     cursor: pointer;
+}
+#tab:active{
+    transform: scale(0.9);
 }
 #backSpace{
     box-sizing: border-box;
@@ -111,6 +117,9 @@ h1{
     box-shadow: 0.5vmax 0.5vmax 0vmax teal;
     transition: 0.1s ease-out;
     cursor: pointer;
+}
+#backSpace:active{
+    transform:scale(0.9);
 }
 #spaceBar{
     box-sizing: border-box;
@@ -145,6 +154,9 @@ h1{
     transition: 0.1s ease-out;
     cursor: pointer;
 }
+#clearAll:active{
+    transform: scale(0.9);
+}
 #capsLock{
     box-sizing: border-box;
     border: 0.1vmax solid black;
@@ -159,4 +171,7 @@ h1{
     box-shadow: 0.5vmax 0.5vmax 0vmax teal;
     transition: 0.1s ease-out;
     cursor: pointer;
+}
+#capsLock:active{
+    transform: scale(0.9);
 }
